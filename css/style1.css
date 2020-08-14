@@ -1,0 +1,71 @@
+* {box-sizing:border-box}
+@font-face{
+    font-family: 'demo';
+    src: url('../font/Raphtalia DEMO.otf');
+}
+@font-face{
+    font-family: 'gabriel';
+    src: url('../font/blogger-sans.regular.otf');
+} 
+.logo-web{
+    width: 100px;
+    height: 100px;
+}
+.navbar-brand.judul{
+    font-family: demo;
+    font-size: 30px;
+    padding-top: 40px;
+    color: rgb(14, 165, 235) !important;
+    
+}
+.home, .login{
+    font-family: demo;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    color: rgb(14, 165, 235) !important;
+}
+.navbar-defauld{
+    background-color: transparent;
+}
+.navbar-defauld a{
+    color:black;
+}
+.nav.navbar-nav.home>li>a:hover{
+    background-color:rgb(14, 165, 235) ;
+    color: white;
+}
+.nav.navbar-nav.home>li.active>a{
+    background: none !important;
+    color: rgb(14, 165, 235) !important;
+}
+.nav.navbar-nav.navbar-right.login>li>a:hover{
+    background-color:rgb(14, 165, 235) ;
+    color: white;
+}
+
+.container-fluit
+{
+    padding: 0px 0px;
+
+}
+.carousel-inner{
+    height: 500px;
+}
+
+.kami{
+    padding-left: 90px;
+    width: 550px;
+    height: 300px;
+}
+.service{
+    width: 200px;
+}
+hr {
+    height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    }
+.coba{
+    background-color: rgba(207, 206, 206, 0.39);
+}

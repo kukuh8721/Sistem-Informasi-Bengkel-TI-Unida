@@ -1,0 +1,123 @@
+* {box-sizing:border-box}
+@font-face{
+    font-family: 'demo';
+    src: url('../font/Raphtalia DEMO.otf');
+}
+@font-face{
+    font-family: 'gabriel';
+    src: url('../font/blogger-sans.regular.otf');
+}
+.logo-web{
+    width: 100px;
+    height: 100px;
+}
+.judul{
+    font-family: demo;
+    font-size: 30px;
+    padding-top: 40px;
+    color: rgb(14, 165, 235) !important;
+}
+.about, .login{
+    font-family: demo;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    color: rgb(14, 165, 235) !important;
+}
+.service, .login{
+    font-family: demo;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+    color: rgb(14, 165, 235) !important;
+}
+.navbar-defauld{
+    background-color:transparent;
+}
+.navbar-defauld a{
+    color: black;
+}
+.nav.navbar-nav.about>li>a:hover{
+    background-color:  rgb(14, 165, 235);
+    color: white;
+}
+.nav.navbar-nav.about>li.active>a{
+    background: none !important;
+    color: rgb(14, 165, 235) !important;
+}
+.nav.navbar-nav.navbar-right.login>li>a:hover{
+    background-color:rgb(14, 165, 235) ;
+    color: white;
+}
+.container-fluit
+{
+    padding: 0px 0px;
+}
+.carousel-inner{
+    height: 500px;
+}
+
+/* Add an orange color to all icons and set the font-size */
+.logo-small {
+    color: #1e8df4;
+    font-size: 50px;
+  }
+  
+  .logo {
+    color: #1e8df4;
+    font-size: 200px;
+  }
+
+  .logo {
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+
+  /* setelah slidshow */
+
+hr {
+    height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    }
+
+    .service{
+        width: 100px;
+    }
+
+
+    /* jualan */
+
+    .thumbnail {
+        padding: 0 0 15px 0;
+        border:2px solid black;
+        border-radius: 0;
+        text-align: center;
+      }
+      
+      .thumbnail img {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+      }
+
+.btn {
+    padding: 10px 20px;
+    background-color:rgb(14, 165, 235) ;
+    color: #f1f1f1;
+    border-radius: 5px;
+    transition: .2s;
+  }
+  
+  .btn:hover, .btn:focus {
+    border: 1px solid rgb(14, 165, 235) ;
+    background-color: #fff;
+    color: rgb(14, 165, 235) ;
+  }
+
